@@ -5,9 +5,9 @@ I learn C++ with https://www.learn-cpp.org/
 ## Chapters done:
 *  Hello, World!
 * Variables and Types  
+* Arrays
 
 ## Chapters left:
-* Arrays
 * Strings
 * if-else
 * For loops
