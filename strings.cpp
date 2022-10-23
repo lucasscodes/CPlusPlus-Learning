@@ -1,1 +1,1 @@
-//goto https://www.learn-cpp.org/en/Arrays and start coding here!
+//goto https://www.learn-cpp.org/en/Strings and start coding here!
