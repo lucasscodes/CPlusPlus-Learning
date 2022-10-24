@@ -9,9 +9,9 @@ I learn C++ with https://www.learn-cpp.org/
 * Strings
 * if-else
 * For loops
+* While loops
 
 ## Chapters left:
-* While loops
 * Functions
 * Pointers
 * Structures
