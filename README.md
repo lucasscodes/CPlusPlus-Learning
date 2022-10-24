@@ -3,7 +3,7 @@
 I learn C++ with https://www.learn-cpp.org/
 
 ## Chapters done:
-*  Hello, World!
+* Hello, World!
 * Variables and Types  
 * Arrays
 * Strings
