@@ -13,9 +13,9 @@ I learn C++ with https://www.learn-cpp.org/
 * Functions
 * Pointers
 * Structures
+* Function arguments by reference
 
 ## Chapters left:
-* Function arguments by reference
 * Dynamic allocation
 * Recursion
 * Linked lists
