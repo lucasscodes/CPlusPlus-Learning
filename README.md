@@ -10,9 +10,9 @@ I learn C++ with https://www.learn-cpp.org/
 * if-else
 * For loops
 * While loops
+* Functions
 
 ## Chapters left:
-* Functions
 * Pointers
 * Structures
 * Function arguments by reference
