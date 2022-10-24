@@ -16,11 +16,11 @@ I learn C++ with https://www.learn-cpp.org/
 * Function arguments by reference
 
 ## Chapters left:
-* Dynamic allocation
-* Recursion
+* Dynamic allocation MISSING, started myself
+* Recursion MISSING
 * Linked lists
-* Binary trees
-* Function Pointers
+* Binary trees MISSING
+* Function Pointers MISSING
 * Template Metaprogramming
 * World!, Hello
 * Generic Programming
