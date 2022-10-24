@@ -18,14 +18,15 @@ int main () {
     a = b - c + d * e;
     cout << "a: "<< a << '\n'; // will print 1-2+3*4 = 11
     
+    bool b2 = false;
+    cout << "b2: " << b2 << "\n";
+
     a = 3;
-    float b2 = 4.5;
-    double c2 = 5.25;
+    float b3 = 4.5;
+    double c2 = 5.25; //doubles the float precision
     double sum;
 
-    sum = a+b2+c2;
-
-    cout << "The sum of a, b, and c is " << sum << std::endl;
+    cout << "The sum of a, b, and c is " << a+b3+c2 << std::endl;
     return 0;
 }
 
