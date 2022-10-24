@@ -11,9 +11,9 @@ I learn C++ with https://www.learn-cpp.org/
 * For loops
 * While loops
 * Functions
+* Pointers
 
 ## Chapters left:
-* Pointers
 * Structures
 * Function arguments by reference
 * Dynamic allocation
