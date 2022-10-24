@@ -12,9 +12,9 @@ I learn C++ with https://www.learn-cpp.org/
 * While loops
 * Functions
 * Pointers
+* Structures
 
 ## Chapters left:
-* Structures
 * Function arguments by reference
 * Dynamic allocation
 * Recursion
