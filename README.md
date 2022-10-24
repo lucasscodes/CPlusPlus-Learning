@@ -6,10 +6,10 @@ I learn C++ with https://www.learn-cpp.org/
 *  Hello, World!
 * Variables and Types  
 * Arrays
-
-## Chapters left:
 * Strings
 * if-else
+
+## Chapters left:
 * For loops
 * While loops
 * Functions
