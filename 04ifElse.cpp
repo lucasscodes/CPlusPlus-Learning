@@ -1,6 +1,20 @@
 #include <iostream>
 using namespace std;
 
+void switches(int i) {
+    switch (i) {
+        case 1:
+            cout << "You entered 1!";
+            //without a break here it will run all the next cases without checking!
+        case 42:
+            cout << "You entered 1 or 42!";
+            break;
+        default:
+            cout << "You didnt entered 1 or 42!";
+            break; //not needed, but helps to remember writing it always
+    }
+}
+
 int main () {
     if(true and true){
         cout << "always printed!" << '\n';
@@ -45,5 +59,7 @@ int main () {
             }
         }
     }
+    switches(1);
+    switches(42);
     return 0;
 }
