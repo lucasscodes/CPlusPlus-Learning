@@ -25,3 +25,7 @@ I learn C++ with https://www.learn-cpp.org/
 * World!, Hello
 * Generic Programming
 * Inheritance 
+
+## Own Chapters:
+* Switch in ForLoops
+* CMath
