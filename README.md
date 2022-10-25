@@ -11,7 +11,7 @@ I learn C++ with https://www.learn-cpp.org/
 * For loops
 * While loops
 * Functions
-* Pointers
+* Pointers (new stuff in video)
 * Structures
 * Function arguments by reference
 
