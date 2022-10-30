@@ -15,10 +15,10 @@ I learn C++ with https://www.learn-cpp.org/
 * Structures
 * Function arguments by reference
 * Dynamic allocation MISSING, did it myself
-* Recursion MISSING, started it myself
+* Recursion MISSING, did it myself
 
 ## Chapters left:
-* Linked lists
+* Linked lists //TODO: Continue here!
 * Binary trees MISSING
 * Function Pointers MISSING
 * Template Metaprogramming
