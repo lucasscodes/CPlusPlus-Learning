@@ -22,10 +22,13 @@ I learn C++ with https://www.learn-cpp.org/
 * Binary trees MISSING
 * Function Pointers MISSING
 * Template Metaprogramming
+
+## Integrated and Spiral Learning
+This set of problems will cover templates, operator overloading (polymorphism), inheritance, friend functions, etc. They are presented in a spiral and integrated approach so as to maximize learning and minimize cognitive load.
 * World!, Hello
 * Generic Programming
 * Inheritance 
 
 ## Own Chapters:
-* Switch in ForLoops
-* CMath
+* Switch in ForLoops?
+* CMath?
