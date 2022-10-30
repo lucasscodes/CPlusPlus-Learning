@@ -18,6 +18,10 @@ int main () {
     char keys[6] = {'b','c','d','a','b','b'};
     
     cout << "Third Element: "<< keys[2] << std::endl;
+    
+    int m[] = {1,2,3,4,5};
+    cout << m[4] << endl;
+    // cout << m[1000] << endl; causes segFault => points behind the arr
 
     return 0;
 }
