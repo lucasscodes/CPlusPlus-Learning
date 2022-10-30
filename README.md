@@ -18,7 +18,7 @@ I learn C++ with https://www.learn-cpp.org/
 * Recursion MISSING, did it myself
 
 ## Chapters left:
-* Linked lists //TODO: Continue here!
+* Linked lists //TODO: Continue here! https://youtube.com/playlist?list=PLwTB0ofFqe3FhQUqHQbnzpTK3-UBNQ7gG
 * Binary trees MISSING
 * Function Pointers MISSING
 * Template Metaprogramming
