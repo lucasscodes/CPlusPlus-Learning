@@ -1,21 +1,38 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
-char text[] = {'H','a','l','l','o','!',};
 
-void rekursion(char * input, int len, int now = 0);
+void rekursionPrint(char * input, int len, int now = 0); //Defaultparam will be passed down from this PrototypeFunc!
+string rekursionString(char * pointer, int len, int now = 0);
 
 int main () {
-    rekursion(text, 6);
+    char text[] = "Hallo!";
+    void* pointer = &text;
+
+    rekursionPrint((char *)pointer, 6);
+    cout << endl << rekursionString((char *)pointer, 6) << endl;
+    
     return 0;
 }
 
-void rekursion(char input[], int len, int now) { //Defaultparam from the FuncPrototype seems to work here!
+void rekursionPrint(char* text, int len, int now) { 
     if (len != 1) {
-        cout << input[now];
-        rekursion(input, len-1, now+1);
+        cout << text[now];
+        rekursionPrint(text, len-1, now+1);
     }
     else {
-        cout << input[now];
+        cout << text[now];
+    }
+}
+
+string rekursionString(char* text, int len, int now) {
+    if (now == (len-1)) {
+        string res = {text[now]};
+        return res;
+    }
+    else {
+        string res = {text[now]};
+        return res + rekursionString(text, len, (now+1));
     }
 }
