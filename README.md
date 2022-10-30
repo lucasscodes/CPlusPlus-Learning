@@ -14,10 +14,10 @@ I learn C++ with https://www.learn-cpp.org/
 * Pointers (new stuff in video)
 * Structures
 * Function arguments by reference
+* Dynamic allocation MISSING, did it myself
+* Recursion MISSING, started it myself
 
 ## Chapters left:
-* Dynamic allocation MISSING, started myself
-* Recursion MISSING
 * Linked lists
 * Binary trees MISSING
 * Function Pointers MISSING

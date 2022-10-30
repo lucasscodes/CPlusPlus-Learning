@@ -57,9 +57,6 @@ int main()
     (*pointer2)++; //indirectly increase the value of n's content by 1 and print the value
 
     cout << "n was 1 now its: " << n << endl; // <- This should print "2" without n being modified directly.
-  
-
-    // TODO: Look this https://www.youtube.com/watch?v=zXRLtlgm0cQ&list=PLwTB0ofFqe3FhQUqHQbnzpTK3-UBNQ7gG&index=21
 
     return 0;
 }

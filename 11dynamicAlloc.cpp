@@ -46,6 +46,5 @@ int main ()
     //help();
     //alloc();
 
-    // TODO: Find more literature and tasks about this!
     return 0;
 }
