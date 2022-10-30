@@ -19,9 +19,10 @@ int main () {
     
     cout << "Third Element: "<< keys[2] << std::endl;
     
-    int m[] = {1,2,3,4,5};
-    cout << m[4] << endl;
-    // cout << m[1000] << endl; causes segFault => points behind the arr
+    int m[][5] = {{1,2,3,4,5},{1}};
+    cout << m[0][4] << endl;
+    cout << m[1][0] << endl;
+    // cout << m[1000][0] << endl; causes segFault => points behind the arr
 
     return 0;
 }
