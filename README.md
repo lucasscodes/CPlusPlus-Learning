@@ -14,6 +14,7 @@ I learn C++ with https://www.learn-cpp.org/
 * Pointers (new stuff in video)
 * Structures
 * Function arguments by reference
+
 ## Own Chapters done:
 * Switch in ifElse.cpp
 * CMath
@@ -22,10 +23,12 @@ I learn C++ with https://www.learn-cpp.org/
 * Recursion
 
 ## Chapters left:
-* Linked lists //TODO: Continue here! https://youtube.com/playlist?list=PLwTB0ofFqe3FhQUqHQbnzpTK3-UBNQ7gG
+//TODO: Continue here! https://youtube.com/playlist?list=PLwTB0ofFqe3FhQUqHQbnzpTK3-UBNQ7gG
+* Linked lists
 * Binary trees MISSING
 * Function Pointers MISSING
 * Template Metaprogramming
+
 ## Integrated and Spiral Learning left:
 This set of problems will cover templates, operator overloading (polymorphism), inheritance, friend functions, etc. They are presented in a spiral and integrated approach so as to maximize learning and minimize cognitive load.
 * World!, Hello
