@@ -21,10 +21,12 @@ I learn C++ with https://www.learn-cpp.org/
 * DynamicAlloc
 * MultidimArrays in arrays.cpp
 * Recursion
+* Linked lists
+
+## In Progress:
 
 ## Chapters left:
 //TODO: Continue here! https://youtube.com/playlist?list=PLwTB0ofFqe3FhQUqHQbnzpTK3-UBNQ7gG
-* Linked lists
 * Binary trees MISSING
 * Function Pointers MISSING
 * Template Metaprogramming
