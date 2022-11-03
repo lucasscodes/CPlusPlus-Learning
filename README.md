@@ -24,9 +24,10 @@ I learn C++ with https://www.learn-cpp.org/
 * Linked lists
 
 ## In Progress:
+//TODO: Continue here! https://youtube.com/playlist?list=PLwTB0ofFqe3FhQUqHQbnzpTK3-UBNQ7gG
+* GUI
 
 ## Chapters left:
-//TODO: Continue here! https://youtube.com/playlist?list=PLwTB0ofFqe3FhQUqHQbnzpTK3-UBNQ7gG
 * Binary trees MISSING
 * Function Pointers MISSING
 * Template Metaprogramming
