@@ -37,7 +37,7 @@ int main ()
     arr[width+1] = '\n'; //last one triggers newline
 
     for (int i=0; i<1; i++) { //for every repetition
-        for(int deg = 0; deg < 360; deg++) {
+        for(int deg = 0; deg < 360; deg += 3) {
             float rad = deg/deg2rad;//rad = deg/(180/pi)
             float x = sin (rad); //-1 to 1
             x = round((x+1)*sin2arr); //0 to width-1 in int
