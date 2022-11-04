@@ -1,30 +1,31 @@
 # CPlusPlus
 
-I learn C++ with https://www.learn-cpp.org/
+I learn C++ with https://www.learn-cpp.org/ and https://youtube.com/playlist?list=PLwTB0ofFqe3FhQUqHQbnzpTK3-UBNQ7gG
 
 ## Chapters done:
-* Hello, World!
-* Variables and Types  
-* Arrays
-* Strings
-* if-else
-* For loops
-* While loops
-* Functions
-* Pointers (new stuff in video)
-* Structures
-* Function arguments by reference
+* 0 Hello, World!
+* 1 Variables and Types  
+* 2 Arrays
+* 3 Strings
+* 4 if-else
+* 5 For loops
+* 6 While loops
+* 7 Functions
+* 8 Pointers (new stuff in video)
+* 9 Structures
+* 10 Function arguments by reference
+* 11 Linked lists
 
 ## Own Chapters done:
 * Switch in ifElse.cpp
 * CMath
-* DynamicAlloc
+* DynamicAlloc (WAS MISSING)
 * MultidimArrays in arrays.cpp
-* Recursion
-* Linked lists
+* Recursion (WAS MISSING)
+* Decompiling with Ghidra
 
 ## In Progress:
-//TODO: Continue here! https://youtube.com/playlist?list=PLwTB0ofFqe3FhQUqHQbnzpTK3-UBNQ7gG
+//TODO: Continue here!
 * GUI
 
 ## Chapters left:
@@ -38,3 +39,7 @@ This set of problems will cover templates, operator overloading (polymorphism), 
 * Generic Programming
 * Inheritance 
 
+## Own ideas left
+* Modmenu for a SP-Game
+    * Needs GUI first!
+    * Needs pointer(map) via Cheatengine https://www.youtube.com/watch?v=Ot7SeZvfBA0
