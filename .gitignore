@@ -1,4 +1,6 @@
 *.exe
 *.json
 *.vscode
+*.obj
+*.bat
 nuklear
