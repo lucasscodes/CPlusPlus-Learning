@@ -8,8 +8,9 @@
 #include <limits.h>
 #include <time.h>
 
-#define WINDOW_WIDTH 800
-#define WINDOW_HEIGHT 600
+// TODO: Get screensize and open with that values (1680*1050)
+#define WINDOW_WIDTH 600
+#define WINDOW_HEIGHT 400
 
 #define MAX_VERTEX_BUFFER 512 * 1024
 #define MAX_INDEX_BUFFER 128 * 1024
@@ -33,12 +34,13 @@
  * ===============================================================*/
 /* This are some code examples to provide a small overview of what can be
  * done with this library. To try out an example uncomment the defines */
-/*#define INCLUDE_ALL */
-/*#define INCLUDE_STYLE */
-/*#define INCLUDE_CALCULATOR */
-/*#define INCLUDE_CANVAS */
-/*#define INCLUDE_OVERVIEW */
-/*#define INCLUDE_NODE_EDITOR */
+/* Insert these for testing purposes
+#define INCLUDE_ALL 
+#define INCLUDE_STYLE 
+#define INCLUDE_CALCULATOR 
+#define INCLUDE_CANVAS 
+#define INCLUDE_OVERVIEW 
+#define INCLUDE_NODE_EDITOR */
 
 #ifdef INCLUDE_ALL
   #define INCLUDE_STYLE
@@ -49,19 +51,19 @@
 #endif
 
 #ifdef INCLUDE_STYLE
-  #include "../../demo/common/style.c"
+  #include "../nuklear/demo/common/style.c"
 #endif
 #ifdef INCLUDE_CALCULATOR
-  #include "../../demo/common/calculator.c"
+  #include "../nuklear/demo/common/calculator.c"
 #endif
 #ifdef INCLUDE_CANVAS
-  #include "../../demo/common/canvas.c"
+  #include "../nuklear/demo/common/canvas.c"
 #endif
 #ifdef INCLUDE_OVERVIEW
-  #include "../../demo/common/overview.c"
+  #include "../nuklear/demo/common/overview.c"
 #endif
 #ifdef INCLUDE_NODE_EDITOR
-  #include "../../demo/common/node_editor.c"
+  #include "../nuklear/demo/common/node_editor.c"
 #endif
 
 /* ===============================================================
@@ -198,12 +200,12 @@ int main(void)
     /* Load Cursor: if you uncomment cursor loading please hide the cursor */
     {struct nk_font_atlas *atlas;
     nk_d3d11_font_stash_begin(&atlas);
-    /*struct nk_font *droid = nk_font_atlas_add_from_file(atlas, "../../extra_font/DroidSans.ttf", 14, 0);*/
-    /*struct nk_font *robot = nk_font_atlas_add_from_file(atlas, "../../extra_font/Roboto-Regular.ttf", 14, 0);*/
-    /*struct nk_font *future = nk_font_atlas_add_from_file(atlas, "../../extra_font/kenvector_future_thin.ttf", 13, 0);*/
-    /*struct nk_font *clean = nk_font_atlas_add_from_file(atlas, "../../extra_font/ProggyClean.ttf", 12, 0);*/
-    /*struct nk_font *tiny = nk_font_atlas_add_from_file(atlas, "../../extra_font/ProggyTiny.ttf", 10, 0);*/
-    /*struct nk_font *cousine = nk_font_atlas_add_from_file(atlas, "../../extra_font/Cousine-Regular.ttf", 13, 0);*/
+    /*struct nk_font *droid = nk_font_atlas_add_from_file(atlas, "../nuklear/extra_font/DroidSans.ttf", 14, 0);*/
+    /*struct nk_font *robot = nk_font_atlas_add_from_file(atlas, "../nuklear/extra_font/Roboto-Regular.ttf", 14, 0);*/
+    /*struct nk_font *future = nk_font_atlas_add_from_file(atlas, "../nuklear/extra_font/kenvector_future_thin.ttf", 13, 0);*/
+    /*struct nk_font *clean = nk_font_atlas_add_from_file(atlas, "../nuklear/extra_font/ProggyClean.ttf", 12, 0);*/
+    /*struct nk_font *tiny = nk_font_atlas_add_from_file(atlas, "../nuklear/extra_font/ProggyTiny.ttf", 10, 0);*/
+    /*struct nk_font *cousine = nk_font_atlas_add_from_file(atlas, "../nuklear/extra_font/Cousine-Regular.ttf", 13, 0);*/
     nk_d3d11_font_stash_end();
     /*nk_style_load_all_cursors(ctx, atlas->cursors);*/
     /*nk_style_set_font(ctx, &droid->handle)*/;}
@@ -231,7 +233,7 @@ int main(void)
         while (PeekMessageW(&msg, NULL, 0, 0, PM_REMOVE))
         {
             if (msg.message == WM_QUIT)
-                running = 0;
+                running = 0; //If window gets closed, set end the while-loop
             TranslateMessage(&msg);
             DispatchMessageW(&msg);
         }

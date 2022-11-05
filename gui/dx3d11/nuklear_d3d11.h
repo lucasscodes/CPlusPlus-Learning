@@ -131,7 +131,7 @@ nk_d3d11_render(ID3D11DeviceContext *context, enum nk_anti_aliasing AA)
         config.vertex_layout = vertex_layout;
         config.vertex_size = sizeof(struct nk_d3d11_vertex);
         config.vertex_alignment = NK_ALIGNOF(struct nk_d3d11_vertex);
-        config.global_alpha = 1.0f;
+        config.global_alpha = 0.2f;
         config.shape_AA = AA;
         config.line_AA = AA;
         config.circle_segment_count = 22;
